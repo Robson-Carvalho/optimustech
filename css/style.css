@@ -18,6 +18,9 @@
 body {
 	width: 100vw;
 	background: var(--bg-color);
+	display: flex;
+	flex-direction: column;
+	align-items: center;
 }
 
 .header {
@@ -108,4 +111,38 @@ body {
 	background: var(--primary-color);
 
 	color: var(--bg-color);
+}
+
+.main>.first-section {
+	width: 1440px;
+	height: 487px;
+	padding: 96px 0;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	gap: 24px;
+}
+
+.main>.first-section>.title {
+	font-size: 16px;
+	font-style: normal;
+	color: var(--primary-color);
+	font-weight: 600;
+}
+
+.main>.first-section>.first-text {
+	font-size: 48px;
+	font-style: normal;
+	color: var(--gray-900);
+	font-weight: 600;
+	letter-spacing: -0.02rem;
+}
+
+.main>.first-section>.second-text {
+	font-size: 20px;
+	font-style: normal;
+	color: var(--gray-200);
+	font-weight: 400;
+	text-align: center;
 }
