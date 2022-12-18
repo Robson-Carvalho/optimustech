@@ -1,0 +1,16 @@
+* {
+	box-sizing: border-box;
+	margin: 0;
+	padding: 0;
+	text-decoration: none;
+	list-style: none;
+	font-family: 'Inter', sans-serif;
+}
+
+:root {
+	--gray-900: #101828;
+	--gray-500: #3A404E;
+	--gray-200: #667085;
+	--primary-color: #8E2424;
+	--bg-color: #fff;
+}
