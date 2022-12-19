@@ -113,6 +113,12 @@ body {
 	color: var(--bg-color);
 }
 
+.main {
+	display: flex;
+	flex-direction: column;
+
+}
+
 .main>.first-section {
 	width: 1440px;
 	height: 487px;
@@ -122,6 +128,7 @@ body {
 	justify-content: center;
 	align-items: center;
 	gap: 24px;
+
 }
 
 .main>.first-section>.title {
@@ -145,4 +152,49 @@ body {
 	color: var(--gray-200);
 	font-weight: 400;
 	text-align: center;
+}
+
+.main>.second-section {
+	width: 1440px;
+	height: 288px;
+	padding: 0 112px 96px 112px;
+}
+
+.main>.second-section>.container-box {
+	width: 1216px;
+	height: 192px;
+	display: flex;
+	flex-direction: row;
+	gap: 32px;
+	background-color: white;
+}
+
+.main>.second-section>.container-box>.box {
+	width: 280px;
+	height: 168px;
+	display: flex;
+	flex-direction: column;
+}
+
+.main>.second-section>.container-box>.box>.title {
+	font-size: 60px;
+	font-weight: 600;
+	letter-spacing: -0.02rem;
+	color: var(--primary-color);
+	font-style: normal;
+}
+
+.main>.second-section>.container-box>.box>.subtitle {
+	font-size: 18px;
+	font-weight: 500;
+	font-style: normal;
+	color: var(--gray-900);
+	margin: 12px 0 8px 0;
+}
+
+.main>.second-section>.container-box>.box>.description {
+	font-size: 16px;
+	font-weight: 400;
+	font-style: normal;
+	color: var(--gray-200);
 }
