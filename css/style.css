@@ -21,6 +21,7 @@ body {
 	display: flex;
 	flex-direction: column;
 	align-items: center;
+	overflow-x: hidden;
 }
 
 .header {
@@ -197,4 +198,60 @@ body {
 	font-weight: 400;
 	font-style: normal;
 	color: var(--gray-200);
+}
+
+.main>.third-section {
+	max-width: 1440px;
+	height: 1798px;
+	padding: 96px 80px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	gap: 64px;
+}
+
+.main>.third-section>.first-box {
+	width: 1280px;
+	height: 602px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.main>.third-section>.first-box>.content {
+	width: 100%;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main>.third-section>.first-box>.content>.title {
+	background: rgba(142, 36, 36, 0.05);
+	border-radius: 16px;
+	padding: 4px 12px;
+	align-items: center;
+
+	font-size: 14px;
+	color: var(--primary-color);
+	font-weight: 500;
+}
+
+.main>.third-section>.first-box>.content>.subtitle {
+	font-size: 36px;
+	font-weight: 600;
+	letter-spacing: -0.02rem;
+	color: var(--gray-900);
+	margin: 16px 0 20px 0;
+}
+
+.main>.third-section>.first-box>.content>.description {
+	font-size: 20px;
+	font-weight: 400;
+	color: var(--gray-200);
+}
+
+.main>.third-section>.first-box>.imagem {
+	width: 1216px;
+	height: 400px;
 }
