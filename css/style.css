@@ -322,3 +322,67 @@ body {
 	font-size: 16px;
 	color: var(--gray-200);
 }
+
+.main>.fouth-section {
+	width: 1440px;
+	height: 500px;
+	padding: 0 0 96px;
+	display: flex;
+	flex-direction: row;
+	align-items: flex-start;
+	justify-content: center;
+}
+
+.main>.fouth-section>.container {
+	width: 1280px;
+	height: 404px;
+	margin: 0 32px;
+	padding: 64px;
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	background: rgba(196, 25, 25, 0.03);
+	border-radius: 16px;
+}
+
+.main>.fouth-section>.container>span {
+	font-weight: 600;
+	font-size: 14px;
+	color: var(--primary-color);
+}
+
+.main>.fouth-section>.container>p {
+	font-weight: 500;
+	font-size: 36px;
+	text-align: center;
+	letter-spacing: -0.02em;
+	margin: 16px 0 32px 0;
+	color: var(--gray-900);
+}
+
+.main>.fouth-section>.container>.collaborator {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.main>.fouth-section>.container>.collaborator>.image {
+	width: 56px;
+	height: 56px;
+	border-radius: 27px;
+}
+
+.main>.fouth-section>.container>.collaborator>.name {
+	font-weight: 500;
+	font-size: 16px;
+	text-align: center;
+	color: var(--gray-900);
+	margin: 16px 0 4px 0;
+}
+
+.main>.fouth-section>.container>.collaborator>.profession {
+	font-weight: 400;
+	font-size: 14px;
+	text-align: center;
+	color: var(--gray-200);
+}
